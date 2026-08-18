@@ -112,5 +112,5 @@ to each organisation's Website Project Proposal are listed at the end of that do
   website*. Available at: https://www.zippia.com/advice/small-business-website-statistics/
   (Accessed: 13 August 2026).
 
-##Authour/Student
+## Authour/Student
 - *Alicia B Bukitu*
