@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Cakes | MIEL & Crumb Bakery</title>
+  <meta name="description" content="Browse past custom cakes and enquire about a celebration cake from MIEL & Crumb Bakery.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MIEL &amp; Crumb Bakery</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="custom-cakes.html">Custom Cakes</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h1>Custom Celebration Cakes</h1>
+      <p>From birthdays to weddings, we design and bake celebration cakes that taste as good as they look.
+        Browse a few of our past designs below, then use the enquiry form to tell us about your event.</p>
+    </section>
+
+    <!-- Gallery of past cake work -->
+    <section aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Past Work</h2>
+      <div class="card-grid">
+        <img src="C:\Users\ST10538583\OneDrive\Assignment(s)\miel-crumb-bakery\WEDE GitHub\Top-tier Weddingcakeflowers.png" alt="A three-tier white wedding cake decorated with fresh flowers">
+        <img src="C:\Users\ST10538583\OneDrive\Assignment(s)\miel-crumb-bakery\WEDE GitHub\SevenBirthdayCake.png" alt="A colourful children's birthday cake shaped like a number seven">
+        <img src="C:\Users\ST10538583\OneDrive\Assignment(s)\miel-crumb-bakery\WEDE GitHub\dripping.jpg" alt="A chocolate drip cake topped with fresh berries">
+      </div>
+    </section>
+
+    <!-- Custom cake enquiry form -->
+    <section aria-labelledby="enquiry-heading">
+      <h2 id="enquiry-heading">Enquire About a Cake</h2>
+      <p>Fill in the form below and we'll get back to you within two business days with a quote.</p>
+
+      <!-- Note: this form does not submit anywhere yet — form handling
+           and validation are implemented as part of Part 3. -->
+      <form action="#" method="post">
+
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="event-date">Event Date</label>
+        <input type="date" id="event-date" name="event-date">
+
+        <label for="cake-size">Approximate Cake Size</label>
+        <select id="cake-size" name="cake-size">
+          <option value="small">Small (serves up to 10)</option>
+          <option value="medium">Medium (serves 10–25)</option>
+          <option value="large">Large (serves 25+)</option>
+        </select>
+
+        <label for="message">Tell us about your cake</label>
+        <textarea id="message" name="message" rows="5" placeholder="Flavour, design ideas, dietary requirements, etc."></textarea>
+
+        <button type="submit">Send Enquiry</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>MIEL &amp; Crumb Bakery &mdash; 12 Baker Street, Johannesburg</p>
+    <p>Open Tue&ndash;Sun, 07:00&ndash;17:00 | Tel: 011 555 0192</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" aria-label="MIEL & Crumb Bakery on Facebook">Facebook</a>
+      <a href="https://instagram.com" aria-label="MIEL & Crumb Bakery on Instagram">Instagram</a>
+    </div>
+    <p>&copy; 2026 MIEL &amp; Crumb Bakery. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

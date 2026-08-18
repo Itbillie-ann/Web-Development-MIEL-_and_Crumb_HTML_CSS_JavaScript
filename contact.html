@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | MIEL & Crumb Bakery</title>
+  <meta name="description" content="Find MIEL & Crumb Bakery's locations, opening hours, and get in touch.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">MIEL &amp; Crumb Bakery</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="custom-cakes.html">Custom Cakes</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h1>Find Us</h1>
+      <p>You can find fresh bread and pastries from MIEL &amp; Crumb Bakery at either of our two locations below.</p>
+    </section>
+
+    <!-- Location 1: main storefront -->
+    <section class="location" aria-labelledby="location-1-heading">
+      <h2 id="location-1-heading">Main Bakery — Baker Street</h2>
+      <p>12 Baker Street, Melville, Johannesburg, 2109</p>
+      <p>Open Tuesday–Sunday, 07:00–17:00 | Tel: 011 555 0192</p>
+      <!-- Embedded map: replace the query in the src with the real address once confirmed -->
+      <iframe
+        src="https://maps.google.com/maps?q=Melville%2C%20Johannesburg&t=&z=14&ie=UTF8&iwloc=&output=embed"
+        title="Map showing the Baker Street bakery location"
+        loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- Location 2: weekend market stall -->
+    <section class="location" aria-labelledby="location-2-heading">
+      <h2 id="location-2-heading">Saturday Market Stall — Rosebank</h2>
+      <p>Rosebank Sunday Market, Cradock Avenue, Rosebank, Johannesburg, 2196</p>
+      <p>Open Saturdays only, 08:00–13:00</p>
+      <iframe
+        src="https://maps.google.com/maps?q=Rosebank%2C%20Johannesburg&t=&z=14&ie=UTF8&iwloc=&output=embed"
+        title="Map showing the Rosebank Saturday market stall location"
+        loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- General contact form -->
+    <section aria-labelledby="contact-form-heading">
+      <h2 id="contact-form-heading">General Enquiries</h2>
+      <p>Not planning a custom cake? Send us a general message here instead.</p>
+
+      <!-- Note: this form does not submit anywhere yet — form handling
+           and validation are implemented as part of Part 3. -->
+      <form action="#" method="post">
+
+        <label for="contact-name">Full Name</label>
+        <input type="text" id="contact-name" name="contact-name" required>
+
+        <label for="contact-email">Email Address</label>
+        <input type="email" id="contact-email" name="contact-email" required>
+
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>MIEL &amp; Crumb Bakery &mdash; 12 Baker Street, Johannesburg</p>
+    <p>Open Tue&ndash;Sun, 07:00&ndash;17:00 | Tel: 011 555 0192</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" aria-label="MIEL & Crumb Bakery on Facebook">Facebook</a>
+      <a href="https://instagram.com" aria-label="MIEL & Crumb Bakery on Instagram">Instagram</a>
+    </div>
+    <p>&copy; 2026 MIEL &amp; Crumb Bakery. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
