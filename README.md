@@ -112,6 +112,5 @@ to each organisation's Website Project Proposal are listed at the end of that do
   website*. Available at: https://www.zippia.com/advice/small-business-website-statistics/
   (Accessed: 13 August 2026).
 
-## Image Credits
-*(To be completed once real product/team photography is added — credit each image's photographer,
-source site, and licence type here, per the Legal Asset Sourcing Plan in the proposal document.)*
+##Authour/Student
+- *Alicia B Bukitu*
